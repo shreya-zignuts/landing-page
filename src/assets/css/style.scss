@@ -292,3 +292,157 @@ nav {
     }
   }
 }
+
+.healthcare-container {
+  min-height: 100vh;
+  min-width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 18%;
+  gap: 134px;
+
+  .text-section {
+    flex: 1;
+    max-width: 40%;
+
+    .healthcare-title {
+      position: relative;
+
+      &::after {
+        content: '';
+        position: absolute;
+        left: 5%;
+        transform: translateX(-50%);
+        height: 2px;
+        width: 50px;
+        background-color: black;
+        border-radius: 2px;
+        margin: 22px 0;
+      }
+    }
+
+    .title {
+      font-size: 36px;
+      font-weight: 700;
+      line-height: 56px;
+      text-align: left;
+      white-space: pre-line;
+    }
+
+    .description {
+      margin: 50px 0 0 0;
+      font-family: Mulish;
+      font-size: 18px;
+      font-weight: 300;
+      line-height: 30px;
+      text-align: left;
+
+      color: #666;
+    }
+
+    .healthcare-btn {
+      margin: 3rem 0;
+      padding: 0.8rem 3rem;
+      border: 0.1rem solid #458FF6;
+      border-radius: 20px;
+      background-color: #fff;
+      cursor: pointer;
+      outline: none;
+      color: #458FF6;
+      font-weight: bold;
+      font-size: 16px;
+
+      &:hover {
+        background-color: #458FF6;
+        color: #fff;
+      }
+    }
+  }
+
+  .image-section {
+    flex: 1;
+    max-width: 50%;
+    text-align: right;
+
+    .healthcare-image {
+      max-width: 100%;
+      height: auto;
+    }
+  }
+}
+
+.download-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 18%;
+  gap: 134px;
+
+  .text-section {
+    flex: 1;
+    max-width: 30%;
+
+    .download-title {
+      position: relative;
+
+      &::after {
+        content: '';
+        position: absolute;
+        left: 5%;
+        transform: translateX(-50%);
+        height: 2px;
+        width: 50px;
+        background-color: black;
+        border-radius: 2px;
+        margin: 22px 0;
+      }
+    }
+
+    .title {
+      font-size: 36px;
+      font-weight: 700;
+      line-height: 56px;
+      text-align: left;
+      white-space: pre-line;
+    }
+
+    .description {
+      margin: 50px 0 0 0;
+      font-size: 18px;
+      font-weight: 300;
+      line-height: 30px;
+      text-align: left;
+      color: #666;
+    }
+
+    .download-btn {
+      margin: 3rem 0;
+      padding: 0.8rem 3rem;
+      border: 0.1rem solid #458FF6;
+      border-radius: 20px;
+      background-color: #fff;
+      cursor: pointer;
+      outline: none;
+      color: #458FF6;
+      font-weight: bold;
+      font-size: 16px;
+
+      &:hover {
+        background-color: #458FF6;
+        color: #fff;
+      }
+    }
+  }
+
+  .image-section {
+    flex: 1;
+    max-width: 60%;
+    text-align: right;
+
+    .download-image {
+      max-width: 100%;
+      height: auto;
+    }
+  }
+}

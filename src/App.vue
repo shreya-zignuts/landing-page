@@ -2,6 +2,8 @@
 import NavbarComponent from "./components/NavbarComponent.vue";
 import HomeComponent from "./components/HomeComponent.vue";
 import ServiceComponent from "./components/ServiceComponent.vue";
+import HealthcareComponent from "./components/HealthcareComponent.vue";
+import DownloadComponent from "./components/DownloadComponent.vue";
 import "../src/assets/css/style.css";
 </script>
 
@@ -12,6 +14,8 @@ import "../src/assets/css/style.css";
   <main>
     <HomeComponent />
     <ServiceComponent />
+    <HealthcareComponent />
+    <DownloadComponent />
   </main>
 </template>
 

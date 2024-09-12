@@ -18,6 +18,29 @@
   </nav>
 </template>
 
-<script setup></script>
+<script setup>
+import { ref, onMounted, onUnmounted } from "vue";
+
+const navbar = ref(null);
+
+const handleScroll = () => {
+  if (navbar.value) {
+    if (window.scrollY > 50) {
+      // Adjust the scroll value as needed
+      navbar.value.classList.add("scrolled");
+    } else {
+      navbar.value.classList.remove("scrolled");
+    }
+  }
+};
+
+onMounted(() => {
+  window.addEventListener("scroll", handleScroll);
+});
+
+onUnmounted(() => {
+  window.removeEventListener("scroll", handleScroll);
+});
+</script>
 
 <style scoped></style>
