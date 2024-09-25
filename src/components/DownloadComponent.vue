@@ -1,5 +1,5 @@
 <template>
-  <div class="download-container">
+  <div class="download-container" id="apps">
     <div class="text-section">
       <div class="download-title">
         <h1 class="title">Download our mobile apps</h1>

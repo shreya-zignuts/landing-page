@@ -1,5 +1,5 @@
 <template>
-  <div class="homepage-container">
+  <div class="homepage-container" id="home">
     <div class="text-section">
       <h1 class="title">Virtual healthcare for you</h1>
       <p class="description">

@@ -4,6 +4,9 @@ import HomeComponent from "./components/HomeComponent.vue";
 import ServiceComponent from "./components/ServiceComponent.vue";
 import HealthcareComponent from "./components/HealthcareComponent.vue";
 import DownloadComponent from "./components/DownloadComponent.vue";
+import TestimonialComponent from "./components/TestimonialComponent.vue";
+import ArticleList from "./components/ArticleList.vue";
+import FooterComponent from "./components/FooterComponent.vue";
 import "../src/assets/css/style.css";
 </script>
 
@@ -16,6 +19,11 @@ import "../src/assets/css/style.css";
     <ServiceComponent />
     <HealthcareComponent />
     <DownloadComponent />
+    <TestimonialComponent />
+    <ArticleList />
+    <footer>
+      <FooterComponent />   
+    </footer>
   </main>
 </template>
 
